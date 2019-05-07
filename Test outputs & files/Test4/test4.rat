@@ -1,0 +1,44 @@
+[* this is comment for this sample code 
+    for assignment 3 *]
+
+$$ 
+    int a, b, c, d;
+    boolean e;
+
+    a = 25;
+    b = 35;
+
+    get(c, d);
+
+    while (a + b < d - c) {
+        put (a + b);
+        a = a + 1;
+    }
+    whileend
+
+    if (a < b) {
+        a = c;
+        b = a + b;
+        if (a<c) {
+            if (c ^= a)
+                a = b + c;
+            else
+                if (b ^= c)
+                    c = a + b;
+                ifend
+            ifend
+        } ifend
+        c = a + b + c;
+    } else {
+        b = a;
+        {
+            a = b / c;
+            c = a * b / c;
+        }
+    } 
+    ifend
+
+    put(a);
+    put(b);
+    put(c);
+$$
